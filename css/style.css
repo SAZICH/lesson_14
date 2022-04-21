@@ -1,0 +1,168 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+
+.header {
+}
+.main {
+	font-family: roboto;
+	font-style: normal;
+}
+.main-background {
+	padding-top: 50px;
+	padding-bottom: 122px;
+	background-color: #F5F5F5;
+}
+.our-promise {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.block-title {
+	display: flex;
+	flex-direction: column;
+	row-gap: 33px;
+	margin-bottom: 68px;
+}
+.block-title__title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	color: #5D62B5;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+}
+.block-title__title::before {
+	content: "";
+	width: 17px;
+	height: 16px;
+	background: url("../img/Mark.svg") 1px -3px / 21px no-repeat;
+	padding-right: 25px;
+}
+.block-title__subtitle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+}
+.features {
+	display: inline-flex;
+	column-gap: 24px;
+
+}
+.features__item {
+	max-width: 324px;
+	display: flex;
+	column-gap: 23px;
+}
+.features__item-image {
+}
+
+.features__item-content{
+	max-width: 235px;
+
+}
+
+.features__item-title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #F2726F;
+	margin-bottom: 20px;
+}
+.features__item-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+
+}
+
+.main-backgroud-two {
+	background: #29C3BE url("../img/Blob2.svg") 700px 0 / auto no-repeat;
+}
+
+.our-impact {
+}
+.our-impact__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	position: relative;
+}
+.block-title-white {
+	max-width: 411px;
+	padding-top: 112px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 31.77px;
+	margin-bottom: 75.87px;
+}
+.block-title-white__title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.block-title-white__title::before {
+	content: "";
+	width: 17px;
+	height: 16px;
+	background: url("../img/markwhite.svg") 1px -3px / 21px no-repeat;
+	padding-right: 25px;
+
+}
+
+.block-title-white__subtitle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+}
+.stat-block {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 212px;
+}
+.stat-block__item {
+	display: flex;
+	column-gap: 11px;
+}
+.stat-block__item-image {
+}
+.stat-block__image {
+}
+.stat-block__item-content {
+}
+.stat-block__content-title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	margin-bottom: 3px;
+}
+.stat-block__content-subtitle {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
+.our-impact__dog {
+	position: absolute;
+	top:-80px;
+	right: -45px;
+
+}
+.our-impcat__image {
+	border-radius: 40px;
+}
+
+.footer {
+}
